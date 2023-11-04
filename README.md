@@ -1,2 +1,2 @@
 # pafin-tech-assingment
- 
+ Tech
