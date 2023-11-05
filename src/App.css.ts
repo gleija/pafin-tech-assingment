@@ -1,20 +1,16 @@
 import { style } from "@vanilla-extract/css";
 
-export const body = style({
-  backgroundColor: "#EEF4FA",
-  height: "100%",
-  width: "100%",
-});
-
 export const main = style({
-  margin: "0px 112px 0px",
+  fontFamily: "Noto Sans JP, sans-serif",
   display: "flex",
   flexDirection: "column",
   gap: "16px",
-  maxWidth: "83.3%",
   height: "100vh",
+  marginLeft: "112px",
+  maxWidth: "84.4%",
 });
 
-export const text = style({
-  margin: "60px 0 32px 0",
+export const top = style({
+  marginTop: "60px",
+  marginBottom: "16px",
 });
